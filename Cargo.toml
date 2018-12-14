@@ -101,3 +101,6 @@ doc = false
 
 [features]
 vendored-openssl = ['openssl/vendored']
+
+[patch.crates-io]
+failure = { git = "https://github.com/nyantec/failure.git" }
